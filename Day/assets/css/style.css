@@ -409,7 +409,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: calc(100vh - 110px);
-  background: url("../img/hero-bg.jpg") top center;
+  background: url("../img/beer-wall.jpg") top center;
   background-size: cover;
   position: relative;
 }
@@ -617,8 +617,8 @@ section {
 }
 
 .clients img {
-  width: 50%;
-  filter: grayscale(100);
+  width: 100%;
+  filter: none;
   transition: all 0.4s ease-in-out;
   display: inline-block;
   padding: 15px 0;

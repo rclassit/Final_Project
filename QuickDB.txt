@@ -1,0 +1,33 @@
+brewery
+-
+brewery_id PK int
+brewery_name varchar
+
+reviewers
+-
+reviewer_id PK int
+review_profilename varchar
+
+review
+-
+review_id PK int
+review_profilename varchar FK >- reviewers.review_profilename
+review_overall float
+review_aroma float
+review_appearance float
+review_palate float
+review_taste float
+beer_beerid int FK >- beer.beer_beerid
+
+beer
+-
+beer_beerid PK int
+beer_name varchar
+beer_style int FK >- beer_style.beer_style_id
+beer_abv float
+brewery_id int FK >- brewery.brewery_id
+
+beer_style
+-
+beer_style_id PK int
+beer_style varchar

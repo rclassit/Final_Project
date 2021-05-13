@@ -1,0 +1,376 @@
+beer style bubble
+<div class='tableauPlaceholder' id='viz1620925300730' style='position: relative'>
+<noscript><a href='#'><img alt='Beer Style Count' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Be&#47;BeerReviewAnalysis_16209241906140&#47;beerstylebubble&#47;1_rss.png' style='border: none' /></a>
+</noscript>
+<object class='tableauViz' style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='BeerReviewAnalysis_16209241906140&#47;beerstylebubble' /><param name='tabs' value='no' /><param name='toolbar' value='yes' />
+<param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Be&#47;BeerReviewAnalysis_16209241906140&#47;beerstylebubble&#47;1.png' />
+<param name='animate_transition' value='yes' />
+<param name='display_static_image' value='yes' />
+<param name='display_spinner' value='yes' />
+<param name='display_overlay' value='yes' />
+<param name='display_count' value='yes' />
+<param name='language' value='en' />
+</object>
+</div>
+<script type='text/javascript'> var divElement = document.getElementById('viz1620925300730');
+var vizElement = divElement.getElementsByTagName('object')[0];
+vizElement.style.width='100%';
+vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+var scriptElement = document.createElement('script');
+scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+vizElement.parentNode.insertBefore(scriptElement, vizElement);
+</script>
+
+beer style bar
+<div class='tableauPlaceholder' id='viz1620933057452' style='position: relative'>
+<noscript><a href='#'><img alt='beer style bar ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Be&#47;BeerReviewAnalysis_16209241906140&#47;beerstylebar&#47;1_rss.png' style='border: none' /></a>
+</noscript>
+<object class='tableauViz'  style='display:none;'>
+<param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+<param name='embed_code_version' value='3' /> 
+<param name='site_root' value='' />
+<param name='name' value='BeerReviewAnalysis_16209241906140&#47;beerstylebar' />
+<param name='tabs' value='no' /><param name='toolbar' value='yes' />
+<param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Be&#47;BeerReviewAnalysis_16209241906140&#47;beerstylebar&#47;1.png' /> 
+<param name='animate_transition' value='yes' />
+<param name='display_static_image' value='yes' />
+<param name='display_spinner' value='yes' />
+<param name='display_overlay' value='yes' />
+<param name='display_count' value='yes' />
+<param name='language' value='en' />
+</object>
+</div>
+		<script type='text/javascript'>
+                    var divElement = document.getElementById('viz1620933057452');
+                    var vizElement = divElement.getElementsByTagName('object')[0];
+                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+                    var scriptElement = document.createElement('script');
+                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+                    vizElement.parentNode.insertBefore(scriptElement, vizElement);
+                </script>
+reviewer bar
+<div class='tableauPlaceholder' id='viz1620933294696' style='position: relative'>
+<noscript>
+<a href='#'><img alt='number of reviews bar ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Be&#47;BeerReviewAnalysis_16209241906140&#47;numberofreviewsbar&#47;1_rss.png' style='border: none' /></a>
+</noscript>
+<object class='tableauViz'  style='display:none;'>
+<param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+ <param name='embed_code_version' value='3' /> <param name='site_root' value='' />
+<param name='name' value='BeerReviewAnalysis_16209241906140&#47;numberofreviewsbar' />
+<param name='tabs' value='no' /><param name='toolbar' value='yes' />
+<param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Be&#47;BeerReviewAnalysis_16209241906140&#47;numberofreviewsbar&#47;1.png' />
+ <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' />
+<param name='display_spinner' value='yes' />
+<param name='display_overlay' value='yes' />
+<param name='display_count' value='yes' />
+<param name='language' value='en' />
+</object>
+</div>
+                <script type='text/javascript'>
+                    var divElement = document.getElementById('viz1620933294696');
+                    var vizElement = divElement.getElementsByTagName('object')[0];
+                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+                    var scriptElement = document.createElement('script');
+                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+                    vizElement.parentNode.insertBefore(scriptElement, vizElement);
+                </script>
+
+reviewer bubble
+<div class='tableauPlaceholder' id='viz1620933733599' style='position: relative'>
+<noscript>
+<a href='#'><img alt='Number of Reviews by Each Reviewer ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Be&#47;BeerReviewAnalysis_16209241906140&#47;numberofreviewsbubble&#47;1_rss.png' style='border: none' />
+</a>
+</noscript>
+<object class='tableauViz'  style='display:none;'>
+<param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+<param name='embed_code_version' value='3' />
+ <param name='site_root' value='' />
+<param name='name' value='BeerReviewAnalysis_16209241906140&#47;numberofreviewsbubble' />
+<param name='tabs' value='no' />
+<param name='toolbar' value='yes' />
+<param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Be&#47;BeerReviewAnalysis_16209241906140&#47;numberofreviewsbubble&#47;1.png' />
+ <param name='animate_transition' value='yes' />
+<param name='display_static_image' value='yes' />
+<param name='display_spinner' value='yes' />
+<param name='display_overlay' value='yes' />
+<param name='display_count' value='yes' />
+<param name='language' value='en' />
+</object>
+</div>
+                <script type='text/javascript'>
+                    var divElement = document.getElementById('viz1620933733599');
+                    var vizElement = divElement.getElementsByTagName('object')[0];
+                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+                    var scriptElement = document.createElement('script');
+                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+                    vizElement.parentNode.insertBefore(scriptElement, vizElement);
+                </script>
+
+overall rating count
+<div class='tableauPlaceholder' id='viz1620933955779' style='position: relative'>
+<noscript>
+<a href='#'><img alt='Overall Rating Count  ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Be&#47;BeerReviewAnalysis_16209241906140&#47;overallratingbubble&#47;1_rss.png' style='border: none' />
+</a>
+</noscript>
+<object class='tableauViz'  style='display:none;'>
+<param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+<param name='embed_code_version' value='3' /> 
+<param name='site_root' value='' />
+<param name='name' value='BeerReviewAnalysis_16209241906140&#47;overallratingbubble' />
+<param name='tabs' value='no' />
+<param name='toolbar' value='yes' />
+<param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Be&#47;BeerReviewAnalysis_16209241906140&#47;overallratingbubble&#47;1.png' />
+ <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' />
+<param name='display_spinner' value='yes' />
+<param name='display_overlay' value='yes' />
+
+appearance rating
+<div class='tableauPlaceholder' id='viz1620934231410' style='position: relative'>
+<noscript><a href='#'>
+<img alt='Appearance Rating Count  ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Be&#47;BeerReviewAnalysis_16209241906140&#47;appearanceratingbubble&#47;1_rss.png' style='border: none' />
+</a>
+</noscript>
+<object class='tableauViz'  style='display:none;'>
+<param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+<param name='embed_code_version' value='3' /> <param name='site_root' value='' />
+<param name='name' value='BeerReviewAnalysis_16209241906140&#47;appearanceratingbubble' />
+<param name='tabs' value='no' />
+<param name='toolbar' value='yes' />
+<param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Be&#47;BeerReviewAnalysis_16209241906140&#47;appearanceratingbubble&#47;1.png' />
+ <param name='animate_transition' value='yes' />
+<param name='display_static_image' value='yes' />
+<param name='display_spinner' value='yes' />
+<param name='display_overlay' value='yes' />
+<param name='display_count' value='yes' />
+<param name='language' value='en' />
+</object>
+</div>
+                <script type='text/javascript'>
+                    var divElement = document.getElementById('viz1620934231410');
+                    var vizElement = divElement.getElementsByTagName('object')[0];
+                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+                    var scriptElement = document.createElement('script');
+                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+                    vizElement.parentNode.insertBefore(scriptElement, vizElement);
+                </script>
+<param name='display_count' value='yes' />
+<param name='language' value='en' />
+</object>
+</div>
+                <script type='text/javascript'>
+                    var divElement = document.getElementById('viz1620933955779');
+                    var vizElement = divElement.getElementsByTagName('object')[0];
+                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+                    var scriptElement = document.createElement('script');
+                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+                    vizElement.parentNode.insertBefore(scriptElement, vizElement);
+                </script>
+
+appearance rating
+<div class='tableauPlaceholder' id='viz1620934464219' style='position: relative'>
+<noscript>
+<a href='#'><img alt='Aroma Rating Count  ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Be&#47;BeerReviewAnalysis_16209241906140&#47;aromaratingbubble&#47;1_rss.png' style='border: none' /></a>
+</noscript>
+<object class='tableauViz'  style='display:none;'>
+<param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+<param name='embed_code_version' value='3' /> 
+<param name='site_root' value='' />
+<param name='name' value='BeerReviewAnalysis_16209241906140&#47;aromaratingbubble' />
+<param name='tabs' value='no' />
+<param name='toolbar' value='yes' />
+<param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Be&#47;BeerReviewAnalysis_16209241906140&#47;aromaratingbubble&#47;1.png' />
+ <param name='animate_transition' value='yes' />
+<param name='display_static_image' value='yes' />
+<param name='display_spinner' value='yes' />
+<param name='display_overlay' value='yes' />
+<param name='display_count' value='yes' />
+<param name='language' value='en' />
+</object>
+</div>
+                <script type='text/javascript'>
+                    var divElement = document.getElementById('viz1620934464219');
+                    var vizElement = divElement.getElementsByTagName('object')[0];
+                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+                    var scriptElement = document.createElement('script');
+                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+                    vizElement.parentNode.insertBefore(scriptElement, vizElement);
+                </script>
+
+aroma rating
+<div class='tableauPlaceholder' id='viz1620934464219' style='position: relative'>
+<noscript>
+<a href='#'><img alt='Aroma Rating Count  ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Be&#47;BeerReviewAnalysis_16209241906140&#47;aromaratingbubble&#47;1_rss.png' style='border: none' /></a>
+</noscript>
+<object class='tableauViz'  style='display:none;'>
+<param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+<param name='embed_code_version' value='3' />
+ <param name='site_root' value='' />
+<param name='name' value='BeerReviewAnalysis_16209241906140&#47;aromaratingbubble' />
+<param name='tabs' value='no' /><param name='toolbar' value='yes' />
+<param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Be&#47;BeerReviewAnalysis_16209241906140&#47;aromaratingbubble&#47;1.png' />
+ <param name='animate_transition' value='yes' />
+<param name='display_static_image' value='yes' />
+<param name='display_spinner' value='yes' />
+<param name='display_overlay' value='yes' />
+<param name='display_count' value='yes' />
+<param name='language' value='en' />
+</object>
+</div>
+                <script type='text/javascript'>
+                    var divElement = document.getElementById('viz1620934464219');
+                    var vizElement = divElement.getElementsByTagName('object')[0];
+                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+                    var scriptElement = document.createElement('script');
+                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+                    vizElement.parentNode.insertBefore(scriptElement, vizElement);
+                </script>
+
+abv
+<div class='tableauPlaceholder' id='viz1620936363212' style='position: relative'>
+<noscript><a href='#'>
+<img alt='ABV Value Count  ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Be&#47;BeerReviewAnalysis_16209241906140&#47;ABVvaluebubble&#47;1_rss.png' style='border: none' />
+</a></noscript><object class='tableauViz'  style='display:none;'>
+<param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+ <param name='embed_code_version' value='3' />
+ <param name='site_root' value='' />
+<param name='name' value='BeerReviewAnalysis_16209241906140&#47;ABVvaluebubble' />
+<param name='tabs' value='no' />
+<param name='toolbar' value='yes' />
+<param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Be&#47;BeerReviewAnalysis_16209241906140&#47;ABVvaluebubble&#47;1.png' />
+ <param name='animate_transition' value='yes' />
+<param name='display_static_image' value='yes' />
+<param name='display_spinner' value='yes' />
+<param name='display_overlay' value='yes' />
+<param name='display_count' value='yes' />
+<param name='language' value='en' />
+</object>
+</div>
+                <script type='text/javascript'>
+                    var divElement = document.getElementById('viz1620936363212');
+                    var vizElement = divElement.getElementsByTagName('object')[0];
+                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+                    var scriptElement = document.createElement('script');
+                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+                    vizElement.parentNode.insertBefore(scriptElement, vizElement);
+                </script>
+
+palate rating
+<div class='tableauPlaceholder' id='viz1620936499001' style='position: relative'>
+<noscript>
+<a href='#'><img alt='Palate Rating Count  ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Be&#47;BeerReviewAnalysis_16209241906140&#47;palateratingbubble&#47;1_rss.png' style='border: none' />
+</a>
+</noscript>
+<object class='tableauViz'  style='display:none;'>
+<param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+ <param name='embed_code_version' value='3' />
+ <param name='site_root' value='' />
+<param name='name' value='BeerReviewAnalysis_16209241906140&#47;palateratingbubble' />
+<param name='tabs' value='no' />
+<param name='toolbar' value='yes' />
+<param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Be&#47;BeerReviewAnalysis_16209241906140&#47;palateratingbubble&#47;1.png' />
+ <param name='animate_transition' value='yes' />
+<param name='display_static_image' value='yes' />
+<param name='display_spinner' value='yes' />
+<param name='display_overlay' value='yes' />
+<param name='display_count' value='yes' />
+<param name='language' value='en' />
+</object>
+</div>
+                <script type='text/javascript'>
+                    var divElement = document.getElementById('viz1620936499001');
+                    var vizElement = divElement.getElementsByTagName('object')[0];
+                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+                    var scriptElement = document.createElement('script');
+                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+                    vizElement.parentNode.insertBefore(scriptElement, vizElement);
+                </script>
+
+taste rating
+<div class='tableauPlaceholder' id='viz1620936741703' style='position: relative'>
+<noscript>
+<a href='#'><img alt='Taste Rating Count  ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Be&#47;BeerReviewAnalysis_16209241906140&#47;tasteratingbubble&#47;1_rss.png' style='border: none' />
+</a></noscript><object class='tableauViz'  style='display:none;'>
+<param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+ <param name='embed_code_version' value='3' />
+ <param name='site_root' value='' />
+<param name='name' value='BeerReviewAnalysis_16209241906140&#47;tasteratingbubble' />
+<param name='tabs' value='no' />
+<param name='toolbar' value='yes' />
+<param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Be&#47;BeerReviewAnalysis_16209241906140&#47;tasteratingbubble&#47;1.png' />
+ <param name='animate_transition' value='yes' />
+<param name='display_static_image' value='yes' />
+<param name='display_spinner' value='yes' />
+<param name='display_overlay' value='yes' />
+<param name='display_count' value='yes' />
+<param name='language' value='en' />
+</object>
+</div>
+                <script type='text/javascript'>
+                    var divElement = document.getElementById('viz1620936741703');
+                    var vizElement = divElement.getElementsByTagName('object')[0];
+                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+                    var scriptElement = document.createElement('script');
+                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+                    vizElement.parentNode.insertBefore(scriptElement, vizElement);
+                </script>
+
+avg reviews by beer style
+<div class='tableauPlaceholder' id='viz1620936913590' style='position: relative'>
+<noscript>
+<a href='#'><img alt='Avg. Reviews by Beer Style ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Be&#47;BeerReviewAnalysis_16209241906140&#47;avgreviewvaluesbystyle2&#47;1_rss.png' style='border: none' /></a>
+</noscript>
+<object class='tableauViz'  style='display:none;'>
+<param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+ <param name='embed_code_version' value='3' />
+ <param name='site_root' value='' />
+<param name='name' value='BeerReviewAnalysis_16209241906140&#47;avgreviewvaluesbystyle2' />
+<param name='tabs' value='no' />
+<param name='toolbar' value='yes' />
+<param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Be&#47;BeerReviewAnalysis_16209241906140&#47;avgreviewvaluesbystyle2&#47;1.png' />
+ <param name='animate_transition' value='yes' />
+<param name='display_static_image' value='yes' />
+<param name='display_spinner' value='yes' />
+<param name='display_overlay' value='yes' />
+<param name='display_count' value='yes' />
+<param name='language' value='en' />
+</object>
+</div>
+                <script type='text/javascript'>
+                    var divElement = document.getElementById('viz1620936913590');
+                    var vizElement = divElement.getElementsByTagName('object')[0];
+                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+                    var scriptElement = document.createElement('script');
+                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+                    vizElement.parentNode.insertBefore(scriptElement, vizElement);
+                </script>
+
+top reviewers
+<div class='tableauPlaceholder' id='viz1620938156987' style='position: relative'>
+<noscript>
+<a href='#'><img alt='Reviewers who have written 2,000+ Reviews ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Be&#47;BeerReviewAnalysis_16209241906140&#47;2kreviews&#47;1_rss.png' style='border: none' />
+</a>
+</noscript>
+<object class='tableauViz'  style='display:none;'>
+<param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+ <param name='embed_code_version' value='3' />
+ <param name='site_root' value='' />
+<param name='name' value='BeerReviewAnalysis_16209241906140&#47;2kreviews' />
+<param name='tabs' value='no' /><param name='toolbar' value='yes' />
+<param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Be&#47;BeerReviewAnalysis_16209241906140&#47;2kreviews&#47;1.png' />
+ <param name='animate_transition' value='yes' />
+<param name='display_static_image' value='yes' />
+<param name='display_spinner' value='yes' />
+<param name='display_overlay' value='yes' />
+<param name='display_count' value='yes' />
+<param name='language' value='en' />
+<param name='filter' value='publish=yes' />
+</object>
+</div>
+                <script type='text/javascript'>
+                    var divElement = document.getElementById('viz1620938156987');
+                    var vizElement = divElement.getElementsByTagName('object')[0];
+                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+                    var scriptElement = document.createElement('script');
+                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+                    vizElement.parentNode.insertBefore(scriptElement, vizElement);
+                </script>

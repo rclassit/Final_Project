@@ -217,7 +217,8 @@
     </section>
     <!-- End Clients Section -->
 
-    <!-- ======= Services Section ======= -->
+    <!-- ======= Predicter Section ======= -->
+    <!--this section needs a button to interface with the model-->
     <section id="services" class="services">
       <div class="container" >
 
@@ -376,12 +377,18 @@
             </div>
           </div>
 
-
+          <!--predicter button-->
+        <div class="container">
+          <div class = "section-title">
+            <a href="#services" class= "btn-getstarted scrollto">Predict Your Beer!</a>
+          </div>
+        </div>
+        
 
         </div>
 
       </div>
-    </section><!-- End Services Section -->
+    </section><!-- End Predicter Section -->
 
     <!-- ======= Cta Section ======= -->
     <!-- <section id="cta" class="cta">
@@ -396,134 +403,151 @@
       </div>
     </section>End Cta Section -->
 
-    <!-- ======= Portfolio Section ======= -->
+    <!-- ======= Portfolio/Visualization Section ======= -->
     <section id="portfolio" class="portfolio">
       <div class="container">
 
         <div class="section-title">
           <span>Visualizations</span>
           <h2>Visualizations</h2>
-          <p>Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>
+          <p>Click on the corresponding link to access the interactive version</p>
         </div>
 
         <div class="row" data-aos="fade-up">
           <div class="col-lg-12 d-flex justify-content-center">
             <ul id="portfolio-flters">
               <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-app">App</li>
-              <li data-filter=".filter-card">Card</li>
-              <li data-filter=".filter-web">Web</li>
+              <li data-filter=".filter-app">Beer Style</li>
+              <li data-filter=".filter-card">Ratings</li>
+              <li data-filter=".filter-web">Reviewers</li>
             </ul>
           </div>
         </div>
-
-        <!-- Tableau testing area -->
-
-        <div class='tableauPlaceholder' id='viz1620491301317' style='position: relative'>
-          <noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;gr&#47;graduation_rates_16204912875280&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript>
-            <object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='graduation_rates_16204912875280&#47;Dashboard1' /><param name='tabs' value='yes' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;gr&#47;graduation_rates_16204912875280&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en' /><param name='filter' value='publish=yes' /></object></div>                
-            <script type='text/javascript'>                    
-            var divElement = document.getElementById('viz1620491301317');                    
-            var vizElement = divElement.getElementsByTagName('object')[0];                    
-            if ( divElement.offsetWidth > 800 ) { vizElement.style.minWidth='800px';vizElement.style.maxWidth='100%';vizElement.style.minHeight='610px';vizElement.style.maxHeight=(divElement.offsetWidth*0.75)+'px';} 
-            else if ( divElement.offsetWidth > 500 ) { vizElement.style.minWidth='420px';vizElement.style.maxWidth='100%';vizElement.style.minHeight='610px';vizElement.style.maxHeight=(divElement.offsetWidth*0.75)+'px';} 
-            else { vizElement.style.width='100%';vizElement.style.minHeight='800px';vizElement.style.maxHeight=(divElement.offsetWidth*1.77)+'px';}                     
-            var scriptElement = document.createElement('script');                    
-            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
-            vizElement.parentNode.insertBefore(scriptElement, vizElement);                
-            </script>
-
-        <!-- End Tableau testing area -->
         <p></p>
 
         <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="150">
-
+            <!--this figure corresponds to App1 (Beer Style)-->
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <img src="assets/img/portfolio/tableau-test-img.png" class="img-fluid" alt="">
+            <img src="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Be&#47;BeerReviewAnalysis_16209241906140&#47;beerstylebubble&#47;1_rss.png" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h4>Beer Chart 1</h4>
-              <p>Beer Chart 1</p>
-              <a href="assets/img/portfolio/tableau-test-img.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
+              <h4>Beer Styles</h4>
+              <p>Number of Reviews </p>
+              <a href="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Be&#47;BeerReviewAnalysis_16209241906140&#47;beerstylebubble&#47;1_rss.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
               <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
+            <!--this figure corresponds to Web1 (Reviewers)-->
+            <img src="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Be&#47;BeerReviewAnalysis_16209241906140&#47;numberofreviewsbar&#47;1_rss.png" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h4>Web 3</h4>
-              <p>Web</p>
-              <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+              <h4>Beer Reviewer Review Count</h4>
+              <p>Number of Reviews made by Reviewers</p>
+              <a href="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Be&#47;BeerReviewAnalysis_16209241906140&#47;numberofreviewsbar&#47;1_rss.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
               <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
+                        <!--this figure corresponds to App2 (Beer Style)-->
+            <img src="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Be&#47;BeerReviewAnalysis_16209241906140&#47;beerstylebar&#47;1_rss.png" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h4>App 2</h4>
-              <p>App</p>
-              <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 2"><i class="bx bx-plus"></i></a>
+              <h4>Beer Styles</h4>
+              <p>Number of Reviews</p>
+              <a href="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Be&#47;BeerReviewAnalysis_16209241906140&#47;beerstylebar&#47;1_rss.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 2"><i class="bx bx-plus"></i></a>
               <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
+                        <!--this figure corresponds to Card1 (Ratings)-->
+            <img src="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Be&#47;BeerReviewAnalysis_16209241906140&#47;overallratingbubble&#47;1_rss.png" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h4>Card 2</h4>
-              <p>Card</p>
-              <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
+              <h4>Overall Rating</h4>
+              <p>Bubble Size Corresponds to Number of Reviews with Rating</p>
+              <a href="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Be&#47;BeerReviewAnalysis_16209241906140&#47;overallratingbubble&#47;1_rss.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
               <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
+                        <!--this figure corresponds to Web2 (Reviewers)-->
+            <img src="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Be&#47;BeerReviewAnalysis_16209241906140&#47;numberofreviewsbubble&#47;1_rss.png" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h4>Web 2</h4>
-              <p>Web</p>
-              <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 2"><i class="bx bx-plus"></i></a>
+              <h4>Number of Reviews Made by Reviewers</h4>
+              <p>Bubble Size Corresponds to Number of Reviews</p>
+              <a href="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Be&#47;BeerReviewAnalysis_16209241906140&#47;numberofreviewsbubble&#47;1_rss.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 2"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app"> 
+            <img src="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Be&#47;BeerReviewAnalysis_16209241906140&#47;ABVvaluebubble&#47;1_rss.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Beer ABV</h4>
+              <p>Bubble Size Corresponds to Number of Beers with ABV</p>
+              <a href="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Be&#47;BeerReviewAnalysis_16209241906140&#47;ABVvaluebubble&#47;1_rss.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 3"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+              <!--this figure corresponds to Card2 (Ratings)-->
+            <img src="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Be&#47;BeerReviewAnalysis_16209241906140&#47;appearanceratingbubble&#47;1_rss.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Appearance Rating</h4>
+              <p>Bubble Size Corresponds to Number of Reviews with Rating</p>
+              <a href="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Be&#47;BeerReviewAnalysis_16209241906140&#47;appearanceratingbubble&#47;1_rss.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 1"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <img src="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Be&#47;BeerReviewAnalysis_16209241906140&#47;aromaratingbubble&#47;1_rss.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Aroma Rating</h4>
+              <p>Bubble Size Corresponds to Number of Reviews with Rating</p>
+              <a href="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Be&#47;BeerReviewAnalysis_16209241906140&#47;aromaratingbubble&#47;1_rss.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 3"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+<!--check portfolio link (10 and 11 added, not replaced)-->
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <img src="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Be&#47;BeerReviewAnalysis_16209241906140&#47;palateratingbubble&#47;1_rss.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Palate Rating</h4>
+              <p>Bubble Size Corresponds to Number of Reviews with Rating</p>
+              <a href="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Be&#47;BeerReviewAnalysis_16209241906140&#47;palateratingbubble&#47;1_rss.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 4"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <img src="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Be&#47;BeerReviewAnalysis_16209241906140&#47;tasteratingbubble&#47;1_rss.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Taste Rating</h4>
+              <p>Bubble Size Corresponds to Number of Reviews with Rating</p>
+              <a href="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Be&#47;BeerReviewAnalysis_16209241906140&#47;tasteratingbubble&#47;1_rss.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 5"><i class="bx bx-plus"></i></a>
               <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
+            <img src="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Be&#47;BeerReviewAnalysis_16209241906140&#47;avgreviewvaluesbystyle2&#47;1_rss.png" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h4>App 3</h4>
-              <p>App</p>
-              <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Card 1</h4>
-              <p>Card</p>
-              <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 1"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Card 3</h4>
-              <p>Card</p>
-              <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 3"><i class="bx bx-plus"></i></a>
+              <h4>Average Ratings by Beer Style</h4>
+              <p>Average Review for Each Parameter by Beer Style</p>
+              <a href="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Be&#47;BeerReviewAnalysis_16209241906140&#47;avgreviewvaluesbystyle2&#47;1_rss.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 4"><i class="bx bx-plus"></i></a>
               <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
+            <img src="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Be&#47;BeerReviewAnalysis_16209241906140&#47;2kreviews&#47;1_rss.png" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h4>Web 3</h4>
-              <p>Web</p>
-              <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+              <h4>Top Reviewers</h4>
+              <p>Each Reviewer Has Written 2,000+ Beer Reviews</p>
+              <a href="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Be&#47;BeerReviewAnalysis_16209241906140&#47;2kreviews&#47;1_rss.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
               <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
@@ -531,7 +555,7 @@
         </div>
 
       </div>
-    </section><!-- End Portfolio Section -->
+    </section><!-- End Portfolio/Visualization Section -->
 
     <!-- ======= Pricing Section ======= -->
     <!-- <section id="pricing" class="pricing">

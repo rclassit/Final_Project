@@ -1,6 +1,47 @@
-import requests
- #this doesn't work as of 5/14/2021 10pm
-url = 'http://localhost:5500/results'
-r = requests.post(url,json={'overall':4, 'aroma':3, 'appearance':4, 'palate':2, 'taste':5, 'abv':10})
+import numpy as np
+from flask import Flask, request, jsonify, render_template
+import pickle
 
-print(r.json())
+
+#this does something but it's not all working (5/14 10pm)
+
+
+app = Flask(__name__)
+model = pickle.load(open('pickle_rf.pkl', 'rb'))
+
+#sample data
+# data = [4,2,3,4,3,6]
+# prediction = model.predict(np.array([data]))
+    
+#print(prediction)
+
+#route for home
+@app.route('/')
+def home():
+    return render_template('/template/index.html')
+
+#API receives details through html; needs to be connected somehow to submit button/js getparams function
+#little bit of code in get params function may work?
+
+@app.route('/predict',methods=['POST'])
+def predict():
+
+    #rediction = model.predict(np.array([data]))
+
+    #here is where we can rewrite the prediction from an array to the beer style
+    MyData = "I don't know what I'm doing"
+
+    #return render_template('/template/index.html', prediction_text='{}'.format(output))
+
+
+@app.route('/results',methods=['POST'])
+def results():
+
+    data = request.get_json(force=True)
+    prediction = model.predict([np.array(list(data.values()))])
+
+    output = prediction
+    return jsonify(output)
+
+if __name__ == "__main__":
+    app.run(debug=True)

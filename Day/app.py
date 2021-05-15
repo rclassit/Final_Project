@@ -1,13 +1,12 @@
 import numpy as np
 from flask import Flask, request, jsonify, render_template
 import pickle
-
-
-#this does something but it's not all working (5/14 10pm)
-
+import requests
+import json
 
 app = Flask(__name__)
-model = pickle.load(open('pickle_rf.pkl', 'rb'))
+model=None
+#model = pickle.load(open('pickle_rf.pkl', 'rb'))
 
 #sample data
 # data = [4,2,3,4,3,6]
@@ -18,30 +17,24 @@ model = pickle.load(open('pickle_rf.pkl', 'rb'))
 #route for home
 @app.route('/')
 def home():
-    return render_template('/template/index.html')
-
-#API receives details through html; needs to be connected somehow to submit button/js getparams function
-#little bit of code in get params function may work?
-
-@app.route('/predict',methods=['POST'])
-def predict():
-
-    #rediction = model.predict(np.array([data]))
-
-    #here is where we can rewrite the prediction from an array to the beer style
-    MyData = "I don't know what I'm doing"
-
-    #return render_template('/template/index.html', prediction_text='{}'.format(output))
+    return render_template('index.html')
 
 
 @app.route('/results',methods=['POST'])
 def results():
+    
+    # data = request.get_json(force=True)
+    # prediction = model.predict([np.array(data)])
+    print(request.data)
+    
+    response_dict=json.loads(request.data)
 
-    data = request.get_json(force=True)
-    prediction = model.predict([np.array(list(data.values()))])
+    #below response_dict is input for model
+    print(response_dict["overall"])
 
-    output = prediction
-    return jsonify(output)
+    #eventually put model output below (in jsonify)
+    return jsonify("successfully connected to web api")
+
 
 if __name__ == "__main__":
     app.run(debug=True)

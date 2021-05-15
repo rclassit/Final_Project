@@ -18,25 +18,33 @@ function grabparams(){
 
   var input = [overall,aroma,appearance,palate,taste,ABV];
   console.log(input)
+
+//post data to api
+  d3.json('/results',function(api_response){
+    console.log(api_response);
+  }).send("POST", 
+      JSON.stringify({
+      overall: overall,
+      aroma: aroma,
+      appearance: appearance,
+      palate: palate,
+      taste:taste,
+      ABV:ABV
+    }))
+  }
   
-  //try to tell it to go to flask. code from https://stackoverflow.com/questions/45473474/send-variable-from-javascript-into-flask
-  //this doesn't work as of 5/14/2021 10pm
-  $.ajax({
-    type: "POST",
-    url: "http://localhost:5500/results",
-    contentType: "application/json",
-    data: JSON.stringify({input}),
-    dataType: "json",
-    success: function(response) {
-        console.log(response);
-    },
-    error: function(err) {
-        console.log(err);
-    }
-});
+  
+// send data to api
+  // d3.json("http://localhost:5500/predict", function (myData){
+  //   console.log("My Data looks like this" );
+  //   console.log(MyData);
+  // }
+  // );
+
+
  
-}
-(function() {
+
+//function() {
   "use strict";
 
   /**
@@ -270,4 +278,4 @@ function grabparams(){
     })
   });
 
-})()
+//})()

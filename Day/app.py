@@ -3,18 +3,13 @@ from flask import Flask, request, jsonify, render_template
 import pickle
 import requests
 import json
-from sklearn import *
-
 
 app = Flask(__name__)
-
+#model=None
 model = pickle.load(open('pickle_rf.pkl', 'rb'))
 
-# sample data
-data = [4,2,3,4,3,6]
-prediction = model.predict(np.array([data]))
-    
-print(prediction)
+#sample data
+# data = [4,2,3,4,3,6]
 
 #route for home
 @app.route('/')
@@ -24,21 +19,27 @@ def home():
 
 @app.route('/results',methods=['POST'])
 def results():
-    response_dict=json.loads(request.data)
-    int_features = [int(x) for x in request.data]
-    final_features = [np.array(int_features)]
-    prediction= model.predict(final_features)
-    print(request.data)
     
+    # data = request.get_json(force=True)
+    # prediction = model.predict([np.array(data)])
+    # print(request.data)
     
+    #response_dict=json.loads(request.data)
+    
+    #below response_dict is input for model
+    input = request.data
+    data = [input[0],input[1],input[2],input[3],input[4],input[5]]
+   
+    #print(response_dict["overall"])
 
-    # below response_dict is input for model
-    print(response_dict["overall"])
+    prediction = model.predict(np.array([data]))
+    print(f'this is the prediction: {prediction}')
 
-    
-    # eventually put model output below (in jsonify)
-    return jsonify("successfully connected to web api")
-    return render_template('index.html', prediction_text='Sales should be $ {}'.format(prediction))
+    #eventually put model output below 
+
+    return render_template(prediction_text=prediction)
+    #return jsonify("successfully connected to web api")
+
 
 if __name__ == "__main__":
     app.run(debug=True)

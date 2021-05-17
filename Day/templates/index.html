@@ -424,7 +424,24 @@
         <div class="container">
           <div class ="section-title">
             <h3> Based on your selection, you would love a: </h3>
-            <h3>{{prediction_text}}</h3> 
+            <p>Hello, <span id="username"></span></p>
+            <script>
+              var prediction = JSON.parse('{{ prediction | tojson | safe}}');
+              // document.getElementById('username').innerHTML=prediction.firstname + " " +
+              //         user.lastname;
+
+            </script>
+            <!--<script>
+            
+              // fetch('/results')
+              //   .then(function (response) {
+              //     return response.json();
+              //   }).then(function (text) {
+              //     console.log('GET response:');
+              //     console.log(text.greeting); 
+              //   });
+            </script>-->
+            
           </div>
         </div>
 

@@ -4,18 +4,19 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
+
+//function defined to get parameters from html when "predict your beer button is clicked (line 420 in html)"
 function grabparams(){
-  //get inputs from dropdown in predictor section of html
+  
+  //get inputs from dropdown in predictor section of html and changes them to float
+  var overall = parseFloat(d3.select("#inputGroupSelect01").node().value);
+  var aroma = parseFloat(d3.select("#inputGroupSelect02").node().value);
+  var appearance = parseFloat(d3.select("#inputGroupSelect03").node().value);
+  var palate = parseFloat(d3.select("#inputGroupSelect04").node().value);
+  var taste = parseFloat(d3.select("#inputGroupSelect05").node().value);
+  var ABV = parseFloat(d3.select("#inputGroupSelect06").node().value);
 
-  var overall = d3.select("#inputGroupSelect01").node().value;
-  var aroma = d3.select("#inputGroupSelect02").node().value;
-  var appearance = d3.select("#inputGroupSelect03").node().value;
-  var palate = d3.select("#inputGroupSelect04").node().value;
-  var taste = d3.select("#inputGroupSelect05").node().value;
-  var ABV = d3.select("#inputGroupSelect06").node().value;
-
-  //create array to input into model
-
+  //create input for model (below code just checks input in console log, doesn't send to api)
   var input = [overall,aroma,appearance,palate,taste,ABV];
   console.log(input)
 
@@ -23,28 +24,31 @@ function grabparams(){
   d3.json('/results',function(api_response){
     console.log(api_response);
   }).send("POST", 
-      JSON.stringify({
-      overall: overall,
-      aroma: aroma,
-      appearance: appearance,
-      palate: palate,
-      taste:taste,
-      ABV:ABV
-    }))
-  }
-  
-  
-// send data to api
-  // d3.json("http://localhost:5500/predict", function (myData){
-  //   console.log("My Data looks like this" );
-  //   console.log(MyData);
-  // }
-  // );
+      JSON.stringify([overall, aroma, appearance, palate, taste, ABV]
+    //     {
+    //   overall: overall,
+    //   aroma: aroma,
+    //   appearance: appearance,
+    //   palate: palate,
+    //   taste:taste,
+    //   ABV:ABV
+    // }
+    ));
 
-
+// grab results from api
+  // fetch('/results').then(function (response) {
+  //   return response.json();
+  // }).then(function (text) {
+  //     console.log('GET response:');
+  //     console.log(text.greeting); 
+}
  
 
-//function() {
+ 
+//everything below this line is from the website template, i.e., don't mess with it
+
+
+(function() {
   "use strict";
 
   /**
@@ -278,4 +282,4 @@ function grabparams(){
     })
   });
 
-//})()
+})()

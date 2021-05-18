@@ -24,7 +24,7 @@ function grabparams(){
   d3.json('/results',function(api_response){
     console.log(api_response);
   }).send("POST", 
-      JSON.stringify([overall, aroma, appearance, palate, taste, ABV]
+      JSON.stringify([overall,aroma,appearance,palate,taste,ABV]
     //     {
     //   overall: overall,
     //   aroma: aroma,
@@ -33,22 +33,22 @@ function grabparams(){
     //   taste:taste,
     //   ABV:ABV
     // }
-    ));
+    ));}
 
 // grab results from api
   // fetch('/results').then(function (response) {
   //   return response.json();
   // }).then(function (text) {
   //     console.log('GET response:');
-  //     console.log(text.greeting); 
-}
+  //     console.log(text); 
+  // )}
  
 
  
 //everything below this line is from the website template, i.e., don't mess with it
 
 
-(function() {
+//(function() {
   "use strict";
 
   /**
@@ -281,5 +281,4 @@ function grabparams(){
       mirror: false
     })
   });
-
-})()
+//})()

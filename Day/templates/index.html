@@ -58,7 +58,7 @@
   <header id="header" class="d-flex align-items-center">
     <div class="container d-flex align-items-center justify-content-between">
 
-      <h1 class="logo"><a href="../templates/index.html">Beer Predicter</a></h1>
+      <h1 class="logo"><a href="/#services">Beer Predicter</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
@@ -226,7 +226,7 @@
     <!-- End Clients Section -->
 
     <!-- ======= Predicter Section ======= -->
-    <!--this section needs a button to interface with the model-->
+
     <section id="services" class="services">
       <div class="container" >
 
@@ -423,10 +423,23 @@
         <!--prediction-->
         <div class="container">
           <div class ="section-title">
-            <h3> Based on your selection, you would love a: </h3>
-            <div class ="section-title" id="result">{{beer}}
-
-              </div> 
+            <h3> Based on your ratings, you're probably drinking a </h3>
+            <a id="message" style= "font-size : 100px; width: 100%; height: 100px; font-weight: bold"></a>
+            <!-- <div class ="section-title" id="result">{{beer}}
+            </div>  -->
+            <!-- <script language="javascript" type="text/javascript">
+              function addtext() {
+                $randomword = ["Pale Ale","Dark Ale","Pale Lager","Dark Lager"];
+                document.myform.message.value += $randomword[getRandomInt(0,5)];         
+                }
+                
+                function getRandomInt(min, max) {
+                return Math.floor(Math.random() * (max - min)) + min;
+              }
+            </script> -->
+            <!-- <form name="myform">
+              <textarea name="message">
+              message   -->
           </div>
         </div>
 
@@ -456,7 +469,7 @@
         <div class="section-title">
           <span>Visualizations</span>
           <h2>Visualizations</h2>
-          <p>Click on the corresponding link to access the interactive version</p>
+          <p>Click on the corresponding link icon to access the interactive version of each visualization</p>
         </div>
 
         <div class="row" data-aos="fade-up">
@@ -478,8 +491,8 @@
             <div class="portfolio-info">
               <h4>Beer Styles</h4>
               <p>Number of Reviews </p>
-              <a href="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Be&#47;BeerReviewAnalysis_16209241906140&#47;beerstylebubble&#47;1_rss.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
-              <a href="../templates/portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              <a href="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Be&#47;BeerReviewAnalysis_16209241906140&#47;beerstylebubble&#47;1_rss.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Number of reviews for each Beer Style (bigger bubble = more reviews)"><i class="bx bx-plus"></i></a>
+              <a href="/templates/portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
 
@@ -489,8 +502,8 @@
             <div class="portfolio-info">
               <h4>Beer Reviewer Review Count</h4>
               <p>Number of Reviews made by Reviewers</p>
-              <a href="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Be&#47;BeerReviewAnalysis_16209241906140&#47;numberofreviewsbar&#47;1_rss.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
-              <a href="../templates/portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              <a href="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Be&#47;BeerReviewAnalysis_16209241906140&#47;numberofreviewsbar&#47;1_rss.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Number of Reviews by Reviewers"><i class="bx bx-plus"></i></a>
+              <a href="/templates/portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
 
@@ -500,8 +513,8 @@
             <div class="portfolio-info">
               <h4>Beer Styles</h4>
               <p>Number of Reviews</p>
-              <a href="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Be&#47;BeerReviewAnalysis_16209241906140&#47;beerstylebar&#47;1_rss.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 2"><i class="bx bx-plus"></i></a>
-              <a href="../templates/portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              <a href="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Be&#47;BeerReviewAnalysis_16209241906140&#47;beerstylebar&#47;1_rss.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Bar Chart of total number of reviews by beer style"><i class="bx bx-plus"></i></a>
+              <a href="/templates/portfolio-details.html/" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
 
@@ -511,8 +524,8 @@
             <div class="portfolio-info">
               <h4>Overall Rating</h4>
               <p>Bubble Size Corresponds to Number of Reviews with Rating</p>
-              <a href="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Be&#47;BeerReviewAnalysis_16209241906140&#47;overallratingbubble&#47;1_rss.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
-              <a href="../templates/portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              <a href="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Be&#47;BeerReviewAnalysis_16209241906140&#47;overallratingbubble&#47;1_rss.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Number of reviews with specified Overall Review Rating"><i class="bx bx-plus"></i></a>
+              <a href="/templates/portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
 
@@ -522,8 +535,8 @@
             <div class="portfolio-info">
               <h4>Number of Reviews Made by Reviewers</h4>
               <p>Bubble Size Corresponds to Number of Reviews</p>
-              <a href="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Be&#47;BeerReviewAnalysis_16209241906140&#47;numberofreviewsbubble&#47;1_rss.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 2"><i class="bx bx-plus"></i></a>
-              <a href="../templates/portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              <a href="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Be&#47;BeerReviewAnalysis_16209241906140&#47;numberofreviewsbubble&#47;1_rss.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Larger bubble size indicates more reviews made by a reviewer"><i class="bx bx-plus"></i></a>
+              <a href="/templates/portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
 
@@ -532,8 +545,8 @@
             <div class="portfolio-info">
               <h4>Beer ABV</h4>
               <p>Bubble Size Corresponds to Number of Beers with ABV</p>
-              <a href="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Be&#47;BeerReviewAnalysis_16209241906140&#47;ABVvaluebubble&#47;1_rss.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 3"><i class="bx bx-plus"></i></a>
-              <a href="../templates/portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              <a href="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Be&#47;BeerReviewAnalysis_16209241906140&#47;ABVvaluebubble&#47;1_rss.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Number of reviewed beers with specified ABV"><i class="bx bx-plus"></i></a>
+              <a href="/templates/portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
 
@@ -543,8 +556,8 @@
             <div class="portfolio-info">
               <h4>Appearance Rating</h4>
               <p>Bubble Size Corresponds to Number of Reviews with Rating</p>
-              <a href="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Be&#47;BeerReviewAnalysis_16209241906140&#47;appearanceratingbubble&#47;1_rss.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 1"><i class="bx bx-plus"></i></a>
-              <a href="../templates/portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              <a href="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Be&#47;BeerReviewAnalysis_16209241906140&#47;appearanceratingbubble&#47;1_rss.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Number of reviews with specified Appearance Review Rating"><i class="bx bx-plus"></i></a>
+              <a href="/templates/portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
 
@@ -553,8 +566,8 @@
             <div class="portfolio-info">
               <h4>Aroma Rating</h4>
               <p>Bubble Size Corresponds to Number of Reviews with Rating</p>
-              <a href="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Be&#47;BeerReviewAnalysis_16209241906140&#47;aromaratingbubble&#47;1_rss.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 3"><i class="bx bx-plus"></i></a>
-              <a href="../templates/portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              <a href="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Be&#47;BeerReviewAnalysis_16209241906140&#47;aromaratingbubble&#47;1_rss.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Number of reviews with specified Aroma Review Rating"><i class="bx bx-plus"></i></a>
+              <a href="/templates/portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
 <!--check portfolio link (10 and 11 added, not replaced)-->
@@ -563,8 +576,8 @@
             <div class="portfolio-info">
               <h4>Palate Rating</h4>
               <p>Bubble Size Corresponds to Number of Reviews with Rating</p>
-              <a href="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Be&#47;BeerReviewAnalysis_16209241906140&#47;palateratingbubble&#47;1_rss.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 4"><i class="bx bx-plus"></i></a>
-              <a href="../templates/portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              <a href="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Be&#47;BeerReviewAnalysis_16209241906140&#47;palateratingbubble&#47;1_rss.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Number of reviews with specified Palate Review Rating"><i class="bx bx-plus"></i></a>
+              <a href="/templates/portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
 
@@ -573,8 +586,8 @@
             <div class="portfolio-info">
               <h4>Taste Rating</h4>
               <p>Bubble Size Corresponds to Number of Reviews with Rating</p>
-              <a href="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Be&#47;BeerReviewAnalysis_16209241906140&#47;tasteratingbubble&#47;1_rss.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 5"><i class="bx bx-plus"></i></a>
-              <a href="../templates/portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              <a href="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Be&#47;BeerReviewAnalysis_16209241906140&#47;tasteratingbubble&#47;1_rss.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Number of reviews with specified Taste Review Rating"><i class="bx bx-plus"></i></a>
+              <a href="/templates/portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
 
@@ -583,8 +596,8 @@
             <div class="portfolio-info">
               <h4>Average Ratings by Beer Style</h4>
               <p>Average Review for Each Parameter by Beer Style</p>
-              <a href="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Be&#47;BeerReviewAnalysis_16209241906140&#47;avgreviewvaluesbystyle2&#47;1_rss.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 4"><i class="bx bx-plus"></i></a>
-              <a href="../templates/portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              <a href="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Be&#47;BeerReviewAnalysis_16209241906140&#47;avgreviewvaluesbystyle2&#47;1_rss.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Comparison of average reviews for each Beer Style"><i class="bx bx-plus"></i></a>
+              <a href="/templates/portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
 
@@ -593,8 +606,8 @@
             <div class="portfolio-info">
               <h4>Top Reviewers</h4>
               <p>Each Reviewer Has Written 2,000+ Beer Reviews</p>
-              <a href="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Be&#47;BeerReviewAnalysis_16209241906140&#47;2kreviews&#47;1_rss.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
-              <a href="../templates/portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              <a href="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Be&#47;BeerReviewAnalysis_16209241906140&#47;2kreviews&#47;1_rss.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Top Reviewers (folks leaving the most reviews) by Reviewer Profile Name"><i class="bx bx-plus"></i></a>
+              <a href="/templates/portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
 
@@ -686,7 +699,7 @@
 
           <div class="col-lg-2 col-md-6 d-flex align-items-stretch" data-aos="zoom-in">
             <div class="member">
-              <img src="../static/assets/img/team/team-2.jpg" alt="">
+              <img src="static/assets/img/team/Brandy.jpg" alt="">
               <h4>Brandy Brotherton</h4>
               <span>--</span>
               <p>
@@ -722,7 +735,7 @@
 
           <div class="col-lg-2 col-md-6 d-flex align-items-stretch" data-aos="zoom-in">
             <div class="member">
-              <img src="../static/assets/img/team/.jpg" alt="">
+              <img src="static/assets/img/team/Darren.jpg" alt="">
               <h4>Darren Raymond</h4>
               <span>--</span>
               <p>
@@ -757,7 +770,7 @@
             
           <div class="col-lg-2 col-md-6 d-flex align-items-stretch" data-aos="zoom-in">
             <div class="member">
-              <img src="../static/assets/img/team/.jpg" alt="">
+              <img src="static/assets/img/team/Kelly.jpg" alt="">
               <h4>Kelly Henriksen</h4>
               <span>--</span>
               <p>
@@ -774,16 +787,16 @@
 
           <div class="col-lg-2 col-md-6 d-flex align-items-stretch" data-aos="zoom-in">
             <div class="member">
-              <img src="../static/assets/img/team/.jpg" alt="">
+              <img src="static/assets/img/team/Lindsay.jpg" alt="">
               <h4>Lindsay Hussey</h4>
-              <span>--</span>
-              ------------
-              </p>
+              <span>Principle Hop Inspector</span>
+              <p>I like my beer like I like my friends, stout and bitter.</p>
+              
               <div class="social">
-                <a href=""><i class="bi bi-twitter"></i></a>
-                <a href=""><i class="bi bi-facebook"></i></a>
-                <a href=""><i class="bi bi-instagram"></i></a>
-                <a href=""><i class="bi bi-linkedin"></i></a>
+                <a href="https://github.com/lindsaykh"><i class="bi bi-twitter"></i></a>
+                <a href="https://fashionindustrybroadcast.com/2020/09/11/why-facebook-sucks-and-how-the-empire-will-fall-in-this-decade/"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.instagram.com/lindsaykh/"><i class="bi bi-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/lindsay-hussey/"><i class="bi bi-linkedin"></i></a>
               </div>
             </div>
           </div>

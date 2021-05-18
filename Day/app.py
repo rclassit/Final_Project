@@ -23,6 +23,11 @@ model = pickle.load(open('pickle_rf.pkl', 'rb'))
 def home():
     return render_template('index.html')
 
+#route for visualization details
+@app.route('/templates/portfolio-details.html')
+def viz():
+    return render_template('portfolio-details.html')
+
 #route to send input to model
 @app.route('/results',methods=['GET','POST'])
 def results():
@@ -30,8 +35,8 @@ def results():
     #below input is from d3/js (json stringify-ed)
     input = request.data
     print(f'this is the input from the dropdown: {input}')
-    data = [input[0],input[1],input[2],input[3],input[4],input[5]]
-    print(f'this is what data looks like with index in input: {data}')
+    
+    print(f'this is what the input looks like: {input}')
 
     #un stringify-ed to put in model
     model_input = json.loads(input)
@@ -57,7 +62,11 @@ def results():
     
     # GET request
     if request.method == 'GET':
-        return render_template("index.html", beer=beer)  
+        output = {'greeting':beer}
+        print(output)
+        return jsonify(output) #serialize and use JSON headers
+
+    #return render_template("index.html", beer=beer)  
     #post prediction result to js/html
     #return redirect('/#result', code=302,beer=beer)
     

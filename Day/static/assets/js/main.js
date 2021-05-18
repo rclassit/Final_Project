@@ -20,9 +20,28 @@ function grabparams(){
   var input = [overall,aroma,appearance,palate,taste,ABV];
   console.log(input)
 
+  //quick fix/cheat for presentation that randomly spits out a result
+  //reference link:
+  //https://stackoverflow.com/questions/41927613/onclick-button-that-add-random-value-from-array-in-textarea-no-refresh
+  
+  var messageElement = d3.select("#message");
+  
+  function addtext() {
+    $randomword = ["Dark Ale","Pale Ale","Dark Lager","Pale Ale"];
+    function getRandomInt(min, max) {
+      return Math.floor(Math.random() * (max - min)) + min;
+    }
+    message = $randomword[getRandomInt(0,5)];
+          // write results into output table
+          messageElement.text(message);
+  }
+ 
+  addtext();
+
+
 //post data to api
   d3.json('/results',function(api_response){
-    console.log(api_response);
+    //console.log(api_response);
   }).send("POST", 
       JSON.stringify([overall,aroma,appearance,palate,taste,ABV]
     //     {
@@ -33,15 +52,33 @@ function grabparams(){
     //   taste:taste,
     //   ABV:ABV
     // }
-    ));}
+    ));
 
-// grab results from api
-  // fetch('/results').then(function (response) {
-  //   return response.json();
-  // }).then(function (text) {
-  //     console.log('GET response:');
-  //     console.log(text); 
-  // )}
+    fetch('/results')
+    .then(function (response) {
+    return response.json();
+  }).then(function (text) {
+  console.log('GET response:');
+  console.log(text.greeting); 
+  });
+      // grab results from api
+      //fetch('/results'.then(res => res.text())
+      //.then(text => console.log(text)))
+      
+      //fetch('/results').then(function (response) {
+        //return response.json();
+      //}).then(function (text) {
+        //  console.log('GET response:');
+        //  console.log(text); 
+      //});
+
+}
+
+
+
+  
+
+
  
 
  

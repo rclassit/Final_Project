@@ -24,19 +24,19 @@ function grabparams(){
   //reference link:
   //https://stackoverflow.com/questions/41927613/onclick-button-that-add-random-value-from-array-in-textarea-no-refresh
   
-  var messageElement = d3.select("#message");
+  //var messageElement = d3.select("#message");
   
-  function addtext() {
-    $randomword = ["Dark Ale","Pale Ale","Dark Lager","Pale Ale"];
-    function getRandomInt(min, max) {
-      return Math.floor(Math.random() * (max - min)) + min;
-    }
-    message = $randomword[getRandomInt(0,5)];
+  //function addtext() {
+  //  $randomword = ["Dark Ale","Pale Ale","Dark Lager","Pale Ale"];
+  //  function getRandomInt(min, max) {
+  //    return Math.floor(Math.random() * (max - min)) + min;
+  //  }
+  // message = $randomword[getRandomInt(0,5)];
           // write results into output table
-          messageElement.text(message);
+          //messageElement.text(message);
   }
  
-  addtext();
+  //addtext();
 
 
 //post data to api
@@ -53,24 +53,6 @@ function grabparams(){
     //   ABV:ABV
     // }
     ));
-
-    fetch('/results')
-    .then(function (response) {
-    return response.json();
-  }).then(function (text) {
-  console.log('GET response:');
-  console.log(text.greeting); 
-  });
-      // grab results from api
-      //fetch('/results'.then(res => res.text())
-      //.then(text => console.log(text)))
-      
-      //fetch('/results').then(function (response) {
-        //return response.json();
-      //}).then(function (text) {
-        //  console.log('GET response:');
-        //  console.log(text); 
-      //});
 
 }
 
